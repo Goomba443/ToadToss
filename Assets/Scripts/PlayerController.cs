@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
     [SerializeField] private float maxX;
-    [Header(" Control Settings ")]
+    
     private float clickedScreenX;
     private float clickedPlayerX;
     void Start()

@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &382721752
+--- !u!1 &1213970163
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,7 +131,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 382721753}
+  - component: {fileID: 1213970165}
+  - component: {fileID: 1213970164}
   m_Layer: 0
   m_Name: Boots
   m_TagString: Untagged
@@ -139,16 +140,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &382721753
+--- !u!114 &1213970164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213970163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c79e595fab8edd74fab282a5d575211c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1213970165
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 382721752}
+  m_GameObject: {fileID: 1213970163}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.66017115, y: -0.008526228, z: -0.05434356}
+  m_LocalPosition: {x: 1.1033713, y: -0.20533553, z: 1.9863378}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -187,9 +200,10 @@ MonoBehaviour:
   NetworkConfig:
     ProtocolVersion: 0
     NetworkTransport: {fileID: 2133466600}
-    PlayerPrefab: {fileID: 0}
+    PlayerPrefab: {fileID: 5861505637218962237, guid: 4f6b04db2a50cef48996c3c848cd5b56, type: 3}
     Prefabs:
-      NetworkPrefabsLists: []
+      NetworkPrefabsLists:
+      - {fileID: 11400000, guid: e01b248e18b4e6745b017f35096af6f8, type: 2}
     TickRate: 60
     ClientConnectionBufferTimeout: 10
     ConnectionApproval: 0
@@ -255,4 +269,4 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2133466599}
-  - {fileID: 382721753}
+  - {fileID: 1213970165}
