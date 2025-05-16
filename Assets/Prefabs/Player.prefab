@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ff54ec21b7abb41b54a28f0dea74af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 15
+  moveSpeed: 5
   maxX: 4.5
 --- !u!70 &513624457510070418
 CapsuleCollider2D:
@@ -84,8 +84,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2.16, y: 3.14}
+  m_Offset: {x: -0.053945184, y: 0.16186714}
+  m_Size: {x: 12.735878, y: 18.46421}
   m_Direction: 0
 --- !u!114 &7063841752204016183
 MonoBehaviour:
@@ -231,7 +231,7 @@ Transform:
   m_GameObject: {fileID: 6364592555937391293}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 0.17, y: 0.17, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
